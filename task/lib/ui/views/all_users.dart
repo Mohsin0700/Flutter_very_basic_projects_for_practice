@@ -6,7 +6,8 @@ import 'package:task/shared/app_constants.dart';
 import 'package:task/ui/widgets/custom_listtile.dart';
 
 class AllUsers extends StatelessWidget {
-  const AllUsers({super.key});
+  AllUsers({super.key});
+  final GlobalKey<AnimatedListState> _listKey = GlobalKey<AnimatedListState>();
 
   @override
   Widget build(BuildContext context) {
